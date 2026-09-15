@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายการคำสั่งซื้อ | HYVO Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">HYVO</a>
+    <nav class="nav-links">
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">สินค้าทั้งหมด</a>
+    </nav>
+  </header>
+
+  <!-- ===== Admin Section ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center">
+        <p class="eyebrow">Admin Panel</p>
+        <h1>รายการคำสั่งซื้อ</h1>
+        <p>ข้อมูลคำสั่งซื้อทั้งหมด เรียงจากรายการล่าสุดขึ้นก่อน</p>
+        <hr class="divider">
+      </div>
+
+      <div class="table-wrapper">
+        <table id="ordersTable">
+          <thead>
+            <tr>
+              <th>วันเวลา</th>
+              <th>ชื่อลูกค้า</th>
+              <th>เบอร์โทร/Line</th>
+              <th>รายการสินค้า</th>
+              <th>จำนวนเงินรวม</th>
+              <th>หมายเหตุ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- script.js จะเติมข้อมูลตรงนี้โดยอัตโนมัติ -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p class="logo" style="font-size:1.4rem;">HYVO</p>
+      <p style="margin-top: var(--space-xs);">ขวดน้ำที่ออกแบบเพื่อความเรียบหรูในทุกวัน</p>
+      <div class="footer-bottom">
+        &copy; 2026 HYVO. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

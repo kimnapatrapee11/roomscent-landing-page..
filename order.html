@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อสินค้า | HYVO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">HYVO</a>
+    <nav class="nav-links">
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">สินค้าทั้งหมด</a>
+    </nav>
+  </header>
+
+  <!-- ===== Order Form Section ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center">
+        <p class="eyebrow">Complete Your Order</p>
+        <h1>ยืนยันคำสั่งซื้อ</h1>
+        <p>กรอกข้อมูลของคุณให้ครบถ้วน ทีมงานจะติดต่อกลับเพื่อยืนยันการจัดส่ง</p>
+        <hr class="divider">
+      </div>
+
+      <form id="orderForm" class="order-form">
+        <div class="form-group">
+          <label for="customerName">ชื่อลูกค้า</label>
+          <input type="text" id="customerName" name="customerName" placeholder="ชื่อ-นามสกุล" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact">เบอร์โทร / Line</label>
+          <input type="text" id="contact" name="contact" placeholder="เบอร์โทรศัพท์ หรือ Line ID" required>
+        </div>
+
+        <div class="form-group">
+          <label for="items">รายการสินค้า</label>
+          <input type="text" id="items" name="items" placeholder="รายการสินค้าที่เลือก" required>
+        </div>
+
+        <div class="form-group">
+          <label for="total">จำนวนเงินรวม (บาท)</label>
+          <input type="text" id="total" name="total" placeholder="จำนวนเงินรวม" required>
+        </div>
+
+        <div class="form-group">
+          <label for="note">หมายเหตุ</label>
+          <textarea id="note" name="note" rows="4" placeholder="ที่อยู่จัดส่ง หรือหมายเหตุเพิ่มเติม (ถ้ามี)"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary order-submit-btn">ยืนยันสั่งซื้อ</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p class="logo" style="font-size:1.4rem;">HYVO</p>
+      <p style="margin-top: var(--space-xs);">ขวดน้ำที่ออกแบบเพื่อความเรียบหรูในทุกวัน</p>
+      <div class="footer-bottom">
+        &copy; 2026 HYVO. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

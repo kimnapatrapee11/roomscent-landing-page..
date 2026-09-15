@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สินค้าทั้งหมด | HYVO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">HYVO</a>
+    <nav class="nav-links">
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">สินค้าทั้งหมด</a>
+    </nav>
+  </header>
+
+  <!-- ===== Page Header ===== -->
+  <section class="section" style="padding-bottom: 0;">
+    <div class="container text-center">
+      <p class="eyebrow">Our Collection</p>
+      <h1>สินค้าทั้งหมด</h1>
+      <p>เลือกขวดน้ำที่ใช่ ให้เหมาะกับทุกช่วงเวลาของคุณ</p>
+      <hr class="divider">
+    </div>
+  </section>
+
+  <!-- ===== Product Section ===== -->
+  <section class="section">
+    <div class="container">
+
+      <!-- ปุ่มกรองสินค้า: script.js จะสร้างปุ่มและจัดการ event ให้ -->
+      <div id="filter-bar"></div>
+
+      <!-- รายการสินค้า: script.js จะโหลดจาก products.json มาแสดงตรงนี้ -->
+      <div id="product-list"></div>
+
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p class="logo" style="font-size:1.4rem;">HYVO</p>
+      <p style="margin-top: var(--space-xs);">ขวดน้ำที่ออกแบบเพื่อความเรียบหรูในทุกวัน</p>
+      <div class="footer-bottom">
+        &copy; 2026 HYVO. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
