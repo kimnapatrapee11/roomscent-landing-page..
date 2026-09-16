@@ -4,7 +4,7 @@
    ========================================================= */
 
 /* ---------- ตั้งค่า URL ปลายทาง (แก้ตรงนี้ที่เดียว) ---------- */
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyjbED9aywpnd8xhWvoRMUVYei_weV-r9yx5pAVZ7BmRVYE5IPtsciQBRpKnlfCuQ3-/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwW59XVEL5jFsk0grzlC86sRxgrEwPIKlyTblQhs83i83vZAsZ8JFF5EY28t8v4UTKZ/exec';
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8Sr6r28anbgt4mqZc79BW4A0fdzQiEuFhXFg9cMcIcqeiYoxj1DLSBrIwucJCr1HLHzBUjOt1nD_-/pub?gid=0&single=true&output=csv';
 
 /* ============================================================
