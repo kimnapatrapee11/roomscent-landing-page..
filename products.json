@@ -5,7 +5,7 @@
     "type": "เก็บความร้อน",
     "size": "600 ml",
     "price": 159,
-    "image": "images/stanlate.jpg",
+    "image": "images/stainless-hot.jpg",
     "description": "ขวดน้ำสแตนเลสคุณภาพสูง เก็บความร้อนได้ยาวนาน เหมาะสำหรับเครื่องดื่มร้อนและเย็น ดีไซน์เรียบหรู"
   },
   {
@@ -14,7 +14,7 @@
     "type": "ไม่เก็บความร้อน",
     "size": "600 ml",
     "price": 99,
-    "image": "images/slanlateไม่เก็บความร้อน.jpg",
+    "image": "images/stainless-cold.jpg",
     "description": "ขวดน้ำสแตนเลสน้ำหนักเบา ดีไซน์เรียบง่าย เหมาะสำหรับการพกพาใช้งานประจำวัน"
   },
   {
@@ -23,7 +23,7 @@
     "type": "ไม่เก็บความร้อน",
     "size": "600 ml",
     "price": 69,
-    "image": "images/plastic.jpg",
+    "image": "images/plastic-cold.jpg",
     "description": "ขวดน้ำพลาสติกน้ำหนักเบา ราคาประหยัด เหมาะสำหรับใช้งานทั่วไป"
   }
 ]
